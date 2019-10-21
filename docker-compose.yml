@@ -1,0 +1,17 @@
+version: '3'
+services:
+
+  frontend:
+    build: './frontend'
+    volumes:
+      - ./frontend:/frontend
+
+  backend:
+    build: './backend'
+    volumes:
+      - ./backend:/backend
+
+  machine_learning:
+    build: './machine_learning'
+    volumes:
+      - ./machine_learning:/machine_learning
