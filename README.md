@@ -3,6 +3,7 @@
 This is a learning project.
 
 My goal of this project is get a thorough understanding of:
+
     1. serving machine learning models for production
     2. basics of frontend
     3. transaction of API requests
